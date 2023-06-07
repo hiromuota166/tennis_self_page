@@ -1,0 +1,307 @@
+/* 1/5page---------------------------------------------------- */
+
+body {
+  background-color: #eaeae0;
+  text-size-adjust: none;
+}
+
+.cover_page {
+  width: 100%;
+  position: relative;
+}
+
+.cover_page img {
+  width: 100%;
+  height: 112vh;
+  margin-top: -100px;
+  display: block;
+}
+
+.cover_page p {
+  /* width: 770rem; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 140px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+}
+
+/* 2/5page -----------------------------------------------*/
+
+.about_us {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w_inner {
+  margin: 140px;
+}
+
+.w_inner img {
+  border-radius: 20px;
+}
+
+.about_img {
+  /* background-color: rgb(216, 124, 124); */
+  margin-right: 10px;
+  display: flex;
+  gap: 50px;
+  width: 710px;
+}
+
+.members_left {
+  width: 650px;
+  /* margin-bottom: 90px; */
+}
+
+.members_right {
+  margin-top: 200px;
+  width: 700px;
+}
+.members_right img {
+  height: 440px;
+  object-fit: cover;
+}
+
+.about_us_text {
+  position: relative;
+  width: 460px;
+  /* background-color: aqua; */
+}
+
+.ttl {
+  font-size: 60px;
+  font-family: 'Hammersmith One', sans-serif;
+  /* background-color: blanchedalmond; */
+}
+
+.introduce_text {
+  font-size: 24px;
+  /* background-color: blue; */
+  margin-top: 50px;
+}
+
+.button {
+  /* position: absolute; */
+  bottom: 0;
+  height: 100px;
+  width: 260px;
+  background-color: rgb(33, 32, 32);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button p {
+  font-size: 26px;
+  color: #eaeae0;
+  line-height: 100px;
+  margin: 50px 0 ;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+/* 3/5page -------------------------------------------------*/
+
+.leader_header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 60px;
+  margin: 30px;
+}
+
+.leader_main {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.leader_left {
+  padding-left: 200px;
+}
+
+.leader_name {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.leader_left img {
+  width: 500px;
+  border-radius: 30px;
+}
+
+.leader_right {
+  width: 900px;
+  padding-top: 100px;
+  padding-left: 120px;
+  font-size: 26px;
+}
+
+.leader_right li {
+  list-style: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.leader_right li:not(:last-child) {
+  padding-bottom: 14px;
+}
+
+.text_li dt {
+  width: 30%;
+  clear: left;
+  float: left;
+  text-align: left;
+  font-size: 25px;
+}
+
+.text_li dd {
+  width: 60%;
+  float: left;
+  font-size: 25px;
+  /* font-family: "wanpaku-ruika", sans-serif;
+  font-weight: 100;
+  font-style: normal; */
+}
+
+/* 4/5page---------------------------------------------- */
+
+.header p {
+  color: #fff;
+}
+
+.schedule_place {
+  width: 100%;
+  height: 970px;
+  background-color: #647d67;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.schedule_place p {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  padding: 120px;
+}
+
+.place_main {
+  display: flex;
+  width: 1600px;
+  /* padding-left: 150px; */
+  padding-top: 50px;
+  gap: 40px;
+  /* text-align: center; */
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.place_oic,
+.place_bkc,
+.event {
+  flex-shrink: 0;
+  /* 幅の縮小を防止 */
+  display: block;
+  width: 450px;
+}
+
+.place_main p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.place_title {
+  width: 400px;
+}
+
+.place_title p {
+  padding: 50px 0 20px 0;
+}
+
+.place_text {
+  color: #fff;
+}
+
+.place_text dt {
+  width: 30%;
+  clear: left;
+  float: left;
+  text-align: left;
+  font-size: 25px;
+}
+
+.place_text dd {
+  width: 60%;
+  float: left;
+  font-size: 24px;
+}
+
+.place_text p {
+  padding-top: 40px;
+}
+
+/* 5/5page--------------------------------------- */
+
+.last_page {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 50px;
+  /* text-align: center; */
+}
+
+.last_page_left img {
+  width: 100%;
+  height: 960px;
+}
+
+.last_page_right {
+  padding-left: 140px;
+  padding-top: 200px;
+  width: 50%;
+}
+
+.last_text {
+  font-size: 25px;
+}
+
+.sns_twitter,
+.sns_instagram {
+  display: flex;
+  padding-top: 150px;
+}
+
+.twitter_img_link {
+  width: 80px;
+}
+
+.twitter_title {
+  font-size: 24px;
+}
+
+.twitter_name_link {
+  font-size: 23px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.twitter_name {
+  padding-left: 50px;
+}
+
+.twitter_name_link a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+@media(min-width:768px) {
+
+}
